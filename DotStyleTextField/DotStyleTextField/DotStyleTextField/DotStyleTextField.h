@@ -11,6 +11,7 @@
 @class DotStyleTextField;
 typedef void(^InputFinishBlock)(DotStyleTextField *textField, NSString *inputText);
 
+IB_DESIGNABLE
 @interface DotStyleTextField : UITextField
 @property (nonatomic, copy) InputFinishBlock inputFinishHandler;
 - (instancetype)initWithFrame:(CGRect)frame;
