@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DotStyleTextField/DotStyleTextField.h"
+#import "DotStyleTextField.h"
 
 @interface ViewController ()
 
